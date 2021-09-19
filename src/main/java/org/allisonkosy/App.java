@@ -19,21 +19,24 @@ public class App {
     public static EntityManagerFactory entityManagerFactory = Persistence
             .createEntityManagerFactory("schoolLibrary");
     public static final String csv = "John Lennon,23\n"
-    +"Philip Lahm,22\n"+
-            "Jake Peralta,34\n"
-    +"Frank Sinatra,44\n"
-            + "Phoebe Buffay,33\n" + "Kelechi Edwards, 22";
+                                    +"Philip Lahm,22\n"+
+                                    "Jake Peralta,34\n"
+                                    +"Frank Sinatra,44\n"
+                                    + "Phoebe Buffay,33\n" + "Kelechi Edwards, 22";
 
     public static String[] csv2 = ("The Lord of the Rings,The Silmarillion," +
-
-            "The Shawshank Redemption,The Shinning,Oliver Twist,Ebenezer Scrouge," +
-
-            "Things Fall Apart,Arrow of God").split(",");
+                                    "The Shawshank Redemption,The Shinning,Oliver Twist,Ebenezer Scrouge," +
+                                    "Things Fall Apart,Arrow of God").split(",");
+    
     public static Student currentStudent = null;
     public static Request currentRequest = null;
+
     public static void main( String[] args ) {
+
         Scanner in = new Scanner(System.in);
+
         Library library= new Library();
+
         addUsers(library); // add users to db
         addBooks(library); // add books to db
         int choice;
@@ -77,11 +80,11 @@ public class App {
 
             }
             System.out.println("Input 1 to create student\nInput 2 to log in as existing student");
-            System.out.println("Input >=3 to close");
+            System.out.println("Input 3 to add a new book\nInput >=4 to close");
             try {
                 choice = in.nextInt();
                 System.out.println(choice);
-                if(choice>= 3) {
+                if(choice>= 4) {
                     break;
                 }
                 else if(choice == 1) {
@@ -90,26 +93,17 @@ public class App {
                else if(choice == 2) {
                     selectExistingStudent(in, library);
                 }
-
-
-
-
+               else if(choice == 3) {
+                    createNewBook(in, library);
+                }
             }
             catch (InputMismatchException err) {
                 System.out.println("Incorrect input");
                 in.nextLine();
 
             }
-
-
         }
-
-
         close();
-
-
-
-
     }
 
 
@@ -136,8 +130,7 @@ public class App {
         };
 
         int i = 0;
-        for (String book :
-                csv2) {
+        for (String book : csv2) {
             int index  = i /2; // each author will havve 2 books in the db
             library.createNewBook(book, authors[index]);
             i++;
@@ -146,8 +139,7 @@ public class App {
     }
     
     public static void printAllEntities(List<? extends Object> list) {
-        for (Object o :
-                list) {
+        for (Object o : list) {
             System.out.println(o);
         }
     }
@@ -191,6 +183,37 @@ public class App {
         }
     }
 
+    public static void createNewBook(Scanner in, Library library) {
+        in.nextLine();
+        String[] questions = {
+                "What is the book's name: ",
+                "Who is the author of the book: "
+        };
+
+        int index = 0;
+        String name = "";
+        String author = "";
+
+        while (index <  2) {
+            System.out.print(questions[index]);
+            String input = in.nextLine();
+            if(input.length() == 0) {
+                continue;
+            }
+            if(index<1) {
+                name = input;
+            }
+            else {
+                author = input;
+            }
+            index++;
+        }
+        Book book = library.createNewBook(name,  author);
+
+        if (book == null) {
+            System.out.println("Cannot use " + name );
+        }
+    }
     public static void selectExistingStudent(Scanner in, Library library) {
         in.nextLine();
         printAllEntities(library.getAllEntries(Student.printIdentifier(), Student.class));

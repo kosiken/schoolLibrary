@@ -55,6 +55,13 @@ public class Library {
         return student;
 
     }
+
+    /**
+     * Find a book by one of the Book class's properties
+     * @param object the value of the property
+     * @param property the name of the property
+     * @return a student if found or else null
+     */
     public  Book getBook(Object object, String property) {
         EntityManager entityManager = App.entityManagerFactory.createEntityManager();
         String query = getQueryString(Book.modelName(), property, "property");
@@ -184,6 +191,15 @@ public class Library {
             entityManager.persist(book);
             transaction.commit();
             App.logger.info("DONE HERE");
+        }
+        catch (ConstraintViolationException | RollbackException exception) {
+            if (transaction != null) {
+                transaction.rollback();
+
+            }
+            App.logger.error("Book with " + name + " exists");
+
+            book = null;
         }
         catch (Exception err) {
             if (transaction != null) {

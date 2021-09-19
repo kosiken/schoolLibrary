@@ -197,7 +197,7 @@ public class Library {
                 transaction.rollback();
 
             }
-            App.logger.error("Book with " + name + " exists");
+            App.logger.error("Book with name " + name + " already exists");
 
             book = null;
         }

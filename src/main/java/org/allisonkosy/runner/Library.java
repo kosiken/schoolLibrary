@@ -2,24 +2,38 @@ package org.allisonkosy.runner;
 
 import org.allisonkosy.App;
 import org.allisonkosy.entity.Book;
-import org.allisonkosy.entity.Model;
+
 import org.allisonkosy.entity.Request;
 import org.allisonkosy.entity.Student;
 
+import org.hibernate.exception.ConstraintViolationException;
+
 import javax.persistence.*;
-import javax.transaction.HeuristicMixedException;
-import javax.transaction.HeuristicRollbackException;
-import javax.transaction.NotSupportedException;
-import javax.transaction.SystemException;
+
 import java.util.List;
 
 public class Library {
-
+    /**
+     * Used to create query strings for the database
+     * @param modelName the name of the model to query
+     * @param property the column to query by
+     * @param query the placeholder to attach to find in the database
+     * @return the query string
+     * for example getQueryString("Student", "name", "property")
+     * => "SELECT b FROM org.allisonKosy.entity.Student b WHERE b.name = :property"
+     */
     private String getQueryString(String modelName, String property, String query) {
 
          return  "SELECT b FROM " + modelName + " b WHERE b." + property + " = :" + query;
     }
-    public  Student getStudent(Object object, String property) {
+
+    /**
+     * Find a student by one of the Student class's properties
+     * @param object the value of the property
+     * @param property the name of the property
+     * @return a student if found or else null
+     */
+    public Student getStudent(Object object, String property) {
         EntityManager entityManager = App.entityManagerFactory.createEntityManager();
         String query = getQueryString(Student.modelName(), property, "property");
         TypedQuery<Student> typedQuery = entityManager.createQuery(query, Student.class);
@@ -136,6 +150,15 @@ public class Library {
             transaction.commit();
             App.logger.info("DONE HERE");
         }
+        catch (ConstraintViolationException | RollbackException exception) {
+            if (transaction != null) {
+                transaction.rollback();
+
+            }
+            App.logger.error("Student with " + name + " exists");
+
+            student = null;
+        }
         catch (Exception err) {
             if (transaction != null) {
                 transaction.rollback();
@@ -194,14 +217,12 @@ public class Library {
         boolean notFound = false;
         StringBuilder builder = new StringBuilder();
       if(s== null ) {
-          builder.append(studentName + " not found");
-          builder.append('\n');
+          builder.append(studentName).append(" not found").append('\n');
           notFound = true;
 
       }
       if(b == null) {
-          builder.append(bookName + " not found");
-          builder.append('\n');
+          builder.append(bookName).append(" not found").append('\n');
           notFound = true;
       }
       if (!notFound){
@@ -221,7 +242,12 @@ public class Library {
         return request.getBookName() + " borrowed by " + student.getName();
 
     }
+
+    /**
+     * Remove all entries from the db
+     */
     public static void deleteAll() {
+
         EntityManager em = App.entityManagerFactory.createEntityManager();
         EntityTransaction transaction = null;
         transaction =em.getTransaction();
@@ -245,5 +271,24 @@ public class Library {
         }
 
     }
+    public void returnBook(Request request) {
+        App.logger.info(request.getStudentName() +" returning " + request.getBookName());
+        EntityManager em = App.entityManagerFactory.createEntityManager();
+        EntityTransaction transaction = null;
+        transaction =em.getTransaction();
+        try {
 
+            transaction.begin();
+
+            Request r = em.find(Request.class, request.getId());
+            em.remove(r);
+
+
+
+            transaction.commit();
+        } catch (    SecurityException | IllegalStateException | RollbackException  e) {
+            e.printStackTrace();
+        }
+
+    }
 }

@@ -42,7 +42,9 @@ public class Request implements Serializable, Model {
     public void setId(Long id) {
         this.id = id;
     }
-
+    public String getStudentName() {
+        return student.getName();
+    }
     public String getBookName() {
         return book.getName();
     }

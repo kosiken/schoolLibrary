@@ -1,0 +1,1149 @@
+2021-09-19 09:48:40.668 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 09:48:40.762 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 09:48:41.061 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 09:48:41.308 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 09:48:42.076 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 09:48:42.080 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 09:48:42.080 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 09:48:42.081 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 09:48:42.083 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 09:48:42.356 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10b4e7f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 09:48:42.372 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f5827d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 09:48:42.415 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 09:48:42.424 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 09:48:42.674 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.677 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.683 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.686 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.691 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.699 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.702 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.707 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.712 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.714 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.718 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.723 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.724 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:48:42.729 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:11.524 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 09:55:11.592 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 09:55:11.864 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 09:55:12.062 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 09:55:12.923 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 09:55:12.927 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 09:55:12.928 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 09:55:12.928 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 09:55:12.930 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 09:55:13.215 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 09:55:13.230 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 09:55:13.291 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 09:55:13.306 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 09:55:13.509 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.511 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.513 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.514 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.516 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.517 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.519 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.521 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.522 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.524 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.526 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.527 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.529 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:55:13.531 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:15.139 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 09:56:15.211 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 09:56:15.462 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 09:56:15.654 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 09:56:16.358 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 09:56:16.363 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 09:56:16.363 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 09:56:16.364 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 09:56:16.366 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 09:56:16.610 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10b4e7f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 09:56:16.653 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f5827d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 09:56:16.701 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 09:56:16.709 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 09:56:16.874 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.876 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.878 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.879 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.880 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.883 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.887 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.891 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.896 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.899 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.900 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.902 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.903 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 09:56:16.905 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:55.655 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:01:55.731 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:01:55.973 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:01:56.168 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:01:56.869 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:01:56.873 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:01:56.874 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:01:56.874 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:01:56.877 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:01:57.105 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:01:57.117 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:01:57.161 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:01:57.168 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:01:57.299 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.301 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.303 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.304 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.306 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.307 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.309 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.310 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.312 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.314 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.318 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.320 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.326 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:01:57.328 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:02:49.965 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:47.479 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:10:47.553 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:10:47.841 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:10:48.093 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:10:48.848 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:10:48.853 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:10:48.853 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:10:48.854 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:10:48.856 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:10:49.220 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:10:49.239 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:10:49.285 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:10:49.293 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:10:49.463 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.465 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.467 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.468 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.470 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.472 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.474 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.478 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.483 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.489 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.492 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.497 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.499 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:49.501 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:10:59.398 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:31.252 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:12:31.319 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:12:31.554 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:12:31.740 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:12:32.410 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:12:32.414 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:12:32.414 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:12:32.415 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:12:32.417 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:12:32.616 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:12:32.636 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:12:32.676 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:12:32.682 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:12:32.822 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.825 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.830 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.832 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.837 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.843 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.846 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.851 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.854 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.857 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.858 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.860 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.861 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:32.863 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:12:47.681 [main] INFO  org.allisonkosy.App - Student{id=6, age=22, name='Kelechi Edwards'}
+2021-09-19 10:12:53.085 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:14:35.125 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:14:35.204 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:14:35.587 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:14:35.908 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:14:37.472 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:14:37.496 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:14:37.497 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:14:37.497 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:14:37.500 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:14:38.157 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:14:38.201 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:14:38.252 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:14:38.261 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:14:38.730 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.735 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.738 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.741 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.743 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.748 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.750 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.752 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.764 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.766 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.768 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.774 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.776 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:38.780 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:14:58.232 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2021-09-19 10:14:58.232 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.UK_2YWWUFKBLD4T2TGS7RQF3C8U4_INDEX_9 ON PUBLIC.STUDENTS(NAME) VALUES 1"; SQL statement:
+insert into students (age, name, id) values (?, ?, ?) [23505-200]
+2021-09-19 10:18:39.922 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:18:40.017 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:18:40.291 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:18:40.528 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:18:41.472 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:18:41.478 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:18:41.478 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:18:41.479 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:18:41.482 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:18:41.763 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:18:41.775 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:18:41.816 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:18:41.824 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:18:41.975 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.979 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.982 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.984 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.986 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.989 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.991 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.993 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.996 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:41.998 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:42.000 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:42.003 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:42.005 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:18:42.007 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:09.849 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:19:09.914 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:19:10.156 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:19:10.351 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:19:11.073 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:19:11.090 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:19:11.090 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:19:11.091 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:19:11.094 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:19:11.318 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:19:11.331 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:19:11.375 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:19:11.382 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:19:11.562 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.564 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.566 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.567 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.569 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.571 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.573 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.579 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.582 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.587 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.588 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.590 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.593 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:11.596 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:52.302 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:19:52.381 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:19:52.615 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:19:52.808 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:19:53.713 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:19:53.718 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:19:53.718 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:19:53.719 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:19:53.721 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:19:53.980 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:19:53.993 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:19:54.035 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:19:54.042 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:19:54.263 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.265 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.271 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.277 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.281 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.282 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.284 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.285 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.291 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.293 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.294 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.296 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.298 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:19:54.300 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:20:07.913 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2021-09-19 10:20:07.915 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.UK_2YWWUFKBLD4T2TGS7RQF3C8U4_INDEX_9 ON PUBLIC.STUDENTS(NAME) VALUES 1"; SQL statement:
+insert into students (age, name, id) values (?, ?, ?) [23505-200]
+2021-09-19 10:21:25.786 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:21:25.852 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:21:26.078 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:21:26.406 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:21:27.790 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:21:27.794 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:21:27.794 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:21:27.795 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:21:27.797 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:21:28.033 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:21:28.046 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:21:28.094 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:21:28.103 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:21:28.362 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.371 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.373 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.377 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.380 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.382 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.385 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.387 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.390 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.392 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.396 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.400 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.403 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:28.405 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:21:41.323 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Error: 23505, SQLState: 23505
+2021-09-19 10:21:41.325 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper - Unique index or primary key violation: "PUBLIC.UK_2YWWUFKBLD4T2TGS7RQF3C8U4_INDEX_9 ON PUBLIC.STUDENTS(NAME) VALUES 1"; SQL statement:
+insert into students (age, name, id) values (?, ?, ?) [23505-200]
+2021-09-19 10:21:41.334 [main] ERROR org.allisonkosy.App - Student with John Lennon exists
+2021-09-19 10:22:13.829 [main] INFO  org.allisonkosy.App - Student{id=5, age=33, name='Phoebe Buffay'}
+2021-09-19 10:29:57.970 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:29:58.073 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:29:58.317 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:29:58.563 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:29:59.778 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:29:59.782 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:29:59.783 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:29:59.783 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:29:59.787 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:30:00.100 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:30:00.115 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:30:00.172 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:30:00.185 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:30:00.390 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.393 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.394 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.396 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.399 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.401 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.403 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.406 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.409 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.410 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.412 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.415 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.418 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:00.423 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:30:13.098 [main] INFO  org.allisonkosy.App - Student{id=5, age=33, name='Phoebe Buffay'}
+2021-09-19 10:30:25.970 [main] INFO  org.allisonkosy.App - Student{id=1, age=23, name='John Lennon'}
+2021-09-19 10:33:14.537 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:33:14.620 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:33:14.859 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:33:15.061 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:33:15.828 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:33:15.832 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:33:15.833 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:33:15.833 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:33:15.840 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:33:16.082 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:33:16.094 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:33:16.136 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:33:16.143 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:33:16.290 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.293 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.295 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.302 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.306 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.312 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.317 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.319 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.321 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.323 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.324 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.326 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.328 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:16.330 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:33:31.343 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 10:34:20.352 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:34:20.421 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:34:20.657 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:34:20.857 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:34:21.588 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:34:21.607 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:34:21.607 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:34:21.608 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:34:21.611 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:34:21.824 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:34:21.835 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:34:21.879 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:34:21.888 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:34:22.075 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.077 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.079 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.081 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.083 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.085 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.087 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.089 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.091 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.100 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.101 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.103 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.105 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:22.107 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:34:31.501 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:34:34.855 [main] INFO  org.allisonkosy.App - Book{id=8, name='The Silmarillion', author='J.R.R Tolkien'}
+2021-09-19 10:38:05.227 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:38:05.284 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:38:05.496 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:38:05.699 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:38:06.465 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:38:06.469 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:38:06.470 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:38:06.470 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:38:06.473 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:38:06.716 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:38:06.729 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:38:06.770 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:38:06.779 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:38:06.920 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.922 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.925 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.927 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.935 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.945 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.950 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.952 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.954 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.957 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.958 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.961 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.962 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:06.965 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:16.094 [main] INFO  org.allisonkosy.App - Student{id=5, age=33, name='Phoebe Buffay'}
+2021-09-19 10:38:20.462 [main] INFO  org.allisonkosy.App - Book{id=14, name='Arrow of God', author='Chinua Achebe'}
+2021-09-19 10:38:20.465 [main] INFO  org.allisonkosy.App - Student{id=5, age=33, name='Phoebe Buffay'}
+2021-09-19 10:38:20.469 [main] INFO  org.allisonkosy.App - Book{id=14, name='Arrow of God', author='Chinua Achebe'}
+2021-09-19 10:38:20.474 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:38:20.475 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:38:20.477 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:20.478 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:38:20.489 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=14, name='Arrow of God', author='Chinua Achebe'}, student=Student{id=5, age=33, name='Phoebe Buffay'}}
+2021-09-19 10:38:20.490 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=14, name='Arrow of God', author='Chinua Achebe'}, student=Student{id=5, age=33, name='Phoebe Buffay'}}
+2021-09-19 10:38:48.528 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:38:48.606 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:38:48.829 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:38:49.030 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:38:49.757 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:38:49.761 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:38:49.761 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:38:49.762 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:38:49.764 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:38:50.076 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@f2a1813] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:38:50.091 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4570d7b6] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:38:50.127 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:38:50.134 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:38:50.277 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.279 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.282 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.290 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.299 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.303 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.305 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.308 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.313 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.315 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.317 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.319 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.322 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:38:50.330 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:39:24.755 [main] INFO  org.allisonkosy.App - Student{id=6, age=22, name='Kelechi Edwards'}
+2021-09-19 10:39:44.477 [main] INFO  org.allisonkosy.App - Book{id=11, name='Oliver Twist', author='Charles Dickens'}
+2021-09-19 10:39:44.481 [main] INFO  org.allisonkosy.App - Student{id=6, age=22, name='Kelechi Edwards'}
+2021-09-19 10:39:44.485 [main] INFO  org.allisonkosy.App - Book{id=11, name='Oliver Twist', author='Charles Dickens'}
+2021-09-19 10:39:44.487 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:39:44.489 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:39:44.491 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:39:44.492 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:39:44.504 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=11, name='Oliver Twist', author='Charles Dickens'}, student=Student{id=6, age=22, name='Kelechi Edwards'}}
+2021-09-19 10:39:44.505 [main] INFO  org.allisonkosy.App - Oliver Twist borrowed by Kelechi Edwards
+2021-09-19 10:43:52.175 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:43:52.244 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:43:52.499 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:43:52.715 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:43:53.581 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:43:53.588 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:43:53.589 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:43:53.590 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:43:53.594 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:43:53.876 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:43:53.893 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:43:53.944 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:43:53.952 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:43:54.137 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.141 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.142 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.144 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.148 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.157 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.160 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.163 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.166 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.168 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.173 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.176 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.178 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:43:54.181 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:06.512 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:45:06.573 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:45:06.800 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:45:07.018 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:45:07.774 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:45:07.780 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:45:07.780 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:45:07.781 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:45:07.784 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:45:08.031 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:45:08.045 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:45:08.089 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:45:08.097 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:45:08.255 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.257 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.260 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.263 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.266 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.268 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.270 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.272 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.274 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.275 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.277 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.279 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.281 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:45:08.283 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:21.863 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:48:21.935 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:48:22.151 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:48:22.460 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:48:23.588 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:48:23.591 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:48:23.592 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:48:23.592 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:48:23.594 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:48:24.014 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:48:24.041 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:48:24.133 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:48:24.142 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:48:24.336 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.339 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.340 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.341 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.343 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.345 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.346 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.348 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.350 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.352 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.353 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.355 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.357 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:24.358 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:53.341 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:48:53.409 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:48:53.730 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:48:54.073 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:48:55.123 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:48:55.142 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:48:55.143 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:48:55.143 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:48:55.148 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:48:55.575 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e13f156] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:48:55.603 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4dd90166] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:48:55.690 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:48:55.715 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:48:55.920 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.923 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.925 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.927 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.929 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.932 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.934 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.935 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.938 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.939 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.940 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.942 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.944 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:48:55.946 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:10.185 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:49:10.253 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:49:10.485 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:49:10.686 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:49:11.429 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:49:11.433 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:49:11.434 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:49:11.434 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:49:11.437 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:49:11.667 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:49:11.678 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:49:11.717 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:49:11.725 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:49:11.959 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.962 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.964 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.966 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.968 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.972 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.974 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.976 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.980 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.981 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.983 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.987 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.990 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:11.992 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:49:53.642 [main] INFO  org.allisonkosy.App - Nothing to return
+2021-09-19 10:50:00.410 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:50:03.370 [main] INFO  org.allisonkosy.App - Book{id=13, name='Things Fall Apart', author='Chinua Achebe'}
+2021-09-19 10:50:03.373 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:50:03.380 [main] INFO  org.allisonkosy.App - Book{id=13, name='Things Fall Apart', author='Chinua Achebe'}
+2021-09-19 10:50:03.382 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:50:03.383 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:50:03.385 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:03.386 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:50:03.396 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=13, name='Things Fall Apart', author='Chinua Achebe'}, student=Student{id=3, age=34, name='Jake Peralta'}}
+2021-09-19 10:50:03.396 [main] INFO  org.allisonkosy.App - Things Fall Apart borrowed by Jake Peralta
+2021-09-19 10:50:07.931 [main] INFO  org.allisonkosy.App - Jake Peralta returning Things Fall Apart
+2021-09-19 10:50:40.674 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:50:40.742 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:50:40.992 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:50:41.181 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:50:41.896 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:50:41.918 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:50:41.918 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:50:41.921 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:50:41.926 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:50:42.159 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:50:42.171 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:50:42.211 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:50:42.218 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:50:42.362 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.369 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.375 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.382 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.386 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.388 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.390 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.392 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.394 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.400 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.401 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.403 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.405 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:42.407 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:51.474 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:50:54.261 [main] INFO  org.allisonkosy.App - Book{id=13, name='Things Fall Apart', author='Chinua Achebe'}
+2021-09-19 10:50:54.266 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:50:54.272 [main] INFO  org.allisonkosy.App - Book{id=13, name='Things Fall Apart', author='Chinua Achebe'}
+2021-09-19 10:50:54.275 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:50:54.276 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:50:54.279 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:50:54.280 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:50:54.292 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=13, name='Things Fall Apart', author='Chinua Achebe'}, student=Student{id=3, age=34, name='Jake Peralta'}}
+2021-09-19 10:50:54.292 [main] INFO  org.allisonkosy.App - Things Fall Apart borrowed by Jake Peralta
+2021-09-19 10:51:02.222 [main] INFO  org.allisonkosy.App - Jake Peralta returning Things Fall Apart
+2021-09-19 10:51:02.240 [main] ERROR org.hibernate.hql.internal.ast.ErrorTracker - line 1:10: unexpected token: FROM
+2021-09-19 10:51:02.240 [main] ERROR org.hibernate.hql.internal.ast.ErrorTracker - line 1:10: unexpected token: FROM
+antlr.NoViableAltException: unexpected token: FROM
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.optionalFromTokenFromClause(HqlBaseParser.java:460) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.deleteStatement(HqlBaseParser.java:294) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:189) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.allisonkosy.runner.Library.returnBook(Library.java:265) [classes/:?]
+	at org.allisonkosy.App.returnBook(App.java:223) [classes/:?]
+	at org.allisonkosy.App.main(App.java:62) [classes/:?]
+2021-09-19 10:52:31.289 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:52:31.343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:52:31.568 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:52:31.752 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:52:32.475 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:52:32.480 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:52:32.481 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:52:32.481 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:52:32.484 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:52:32.730 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:52:32.744 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:52:32.783 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:52:32.791 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:52:32.929 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.931 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.933 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.936 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.938 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.947 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.952 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.955 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.958 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.964 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.967 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.970 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.974 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:32.976 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:41.411 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:52:44.097 [main] INFO  org.allisonkosy.App - Book{id=12, name='Ebenezer Scrouge', author='Charles Dickens'}
+2021-09-19 10:52:44.103 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:52:44.108 [main] INFO  org.allisonkosy.App - Book{id=12, name='Ebenezer Scrouge', author='Charles Dickens'}
+2021-09-19 10:52:44.110 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:52:44.112 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:52:44.114 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:52:44.115 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:52:44.126 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=12, name='Ebenezer Scrouge', author='Charles Dickens'}, student=Student{id=3, age=34, name='Jake Peralta'}}
+2021-09-19 10:52:44.126 [main] INFO  org.allisonkosy.App - Ebenezer Scrouge borrowed by Jake Peralta
+2021-09-19 10:52:46.189 [main] INFO  org.allisonkosy.App - Jake Peralta returning Ebenezer Scrouge
+2021-09-19 10:52:46.205 [main] ERROR org.hibernate.hql.internal.ast.ErrorTracker - line 1:10: unexpected token: FROM
+2021-09-19 10:52:46.205 [main] ERROR org.hibernate.hql.internal.ast.ErrorTracker - line 1:10: unexpected token: FROM
+antlr.NoViableAltException: unexpected token: FROM
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.optionalFromTokenFromClause(HqlBaseParser.java:460) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.deleteStatement(HqlBaseParser.java:294) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:189) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:294) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:189) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:144) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:113) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:73) ~[hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:162) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:622) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:734) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:23) [hibernate-core-5.5.7.Final.jar:5.5.7.Final]
+	at org.allisonkosy.runner.Library.returnBook(Library.java:265) [classes/:?]
+	at org.allisonkosy.App.returnBook(App.java:223) [classes/:?]
+	at org.allisonkosy.App.main(App.java:62) [classes/:?]
+2021-09-19 10:58:00.931 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 10:58:00.997 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 10:58:01.215 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 10:58:01.418 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 10:58:02.101 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 10:58:02.105 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 10:58:02.105 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 10:58:02.106 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 10:58:02.108 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 10:58:02.366 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:58:02.378 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 10:58:02.421 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 10:58:02.427 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 10:58:02.560 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.563 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.565 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.567 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.569 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.572 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.577 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.589 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.592 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.595 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.605 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.609 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.610 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:02.612 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:10.728 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:58:12.555 [main] INFO  org.allisonkosy.App - Book{id=14, name='Arrow of God', author='Chinua Achebe'}
+2021-09-19 10:58:12.560 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:58:12.563 [main] INFO  org.allisonkosy.App - Book{id=14, name='Arrow of God', author='Chinua Achebe'}
+2021-09-19 10:58:12.565 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:58:12.566 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:58:12.568 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:12.569 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:58:12.579 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=14, name='Arrow of God', author='Chinua Achebe'}, student=Student{id=3, age=34, name='Jake Peralta'}}
+2021-09-19 10:58:12.580 [main] INFO  org.allisonkosy.App - Arrow of God borrowed by Jake Peralta
+2021-09-19 10:58:14.323 [main] INFO  org.allisonkosy.App - Jake Peralta returning Arrow of God
+2021-09-19 10:58:25.139 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:58:27.697 [main] INFO  org.allisonkosy.App - Book{id=11, name='Oliver Twist', author='Charles Dickens'}
+2021-09-19 10:58:27.704 [main] INFO  org.allisonkosy.App - Student{id=3, age=34, name='Jake Peralta'}
+2021-09-19 10:58:27.706 [main] INFO  org.allisonkosy.App - Book{id=11, name='Oliver Twist', author='Charles Dickens'}
+2021-09-19 10:58:27.706 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:58:27.710 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 10:58:27.712 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 10:58:27.713 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 10:58:27.715 [main] INFO  org.allisonkosy.App - Request{id=16, book=Book{id=11, name='Oliver Twist', author='Charles Dickens'}, student=Student{id=3, age=34, name='Jake Peralta'}}
+2021-09-19 10:58:27.715 [main] INFO  org.allisonkosy.App - Oliver Twist borrowed by Jake Peralta
+2021-09-19 11:01:32.402 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:01:32.478 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:01:32.702 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:01:32.898 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:01:33.627 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:01:33.632 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:01:33.633 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:01:33.633 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:01:33.637 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:01:33.906 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e13f156] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:01:33.922 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4dd90166] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:01:33.967 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:01:33.975 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:01:34.120 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.126 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.136 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.138 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.140 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.143 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.147 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.150 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.152 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.153 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.155 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.157 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.158 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:34.160 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:41.567 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:01:48.746 [main] INFO  org.allisonkosy.App - Book{id=12, name='Ebenezer Scrouge', author='Charles Dickens'}
+2021-09-19 11:01:48.749 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:01:48.755 [main] INFO  org.allisonkosy.App - Book{id=12, name='Ebenezer Scrouge', author='Charles Dickens'}
+2021-09-19 11:01:48.757 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:01:48.758 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:01:48.760 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:01:48.761 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:01:48.771 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=12, name='Ebenezer Scrouge', author='Charles Dickens'}, student=Student{id=4, age=44, name='Frank Sinatra'}}
+2021-09-19 11:01:48.771 [main] INFO  org.allisonkosy.App - Ebenezer Scrouge borrowed by Frank Sinatra
+2021-09-19 11:02:15.969 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:02:16.023 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:02:16.223 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:02:16.442 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:02:17.334 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:02:17.338 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:02:17.339 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:02:17.339 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:02:17.342 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:02:17.586 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:02:17.598 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:02:17.640 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:02:17.648 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:02:17.787 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.789 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.793 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.805 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.807 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.810 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.814 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.816 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.817 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.819 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.821 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.827 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.832 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:17.834 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:48.479 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:02:48.534 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:02:48.798 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:02:49.013 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:02:49.756 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:02:49.761 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:02:49.761 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:02:49.762 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:02:49.765 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:02:50.022 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:02:50.033 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:02:50.075 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:02:50.082 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:02:50.224 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.227 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.230 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.239 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.246 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.250 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.252 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.254 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.256 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.258 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.260 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.261 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.263 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:02:50.266 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:03:03.936 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:04:43.543 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:04:43.603 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:04:43.860 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:04:44.073 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:04:44.849 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:04:44.869 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:04:44.870 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:04:44.870 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:04:44.873 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:04:45.105 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:04:45.119 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:04:45.161 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:04:45.169 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:04:45.330 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.337 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.339 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.341 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.345 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.347 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.349 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.351 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.353 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.355 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.357 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.359 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.361 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:45.363 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:04:51.531 [main] INFO  org.allisonkosy.App - Student{id=5, age=33, name='Phoebe Buffay'}
+2021-09-19 11:05:02.465 [main] INFO  org.allisonkosy.App - Nothing to return
+2021-09-19 11:05:32.615 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:05:32.686 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:05:32.901 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:05:33.094 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:05:33.823 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:05:33.828 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:05:33.828 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:05:33.828 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:05:33.831 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:05:34.087 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:05:34.098 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:05:34.138 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:05:34.146 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:05:34.284 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.286 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.288 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.289 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.292 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.294 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.303 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.310 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.314 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.316 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.317 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.319 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.322 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:34.324 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:41.253 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:05:45.269 [main] INFO  org.allisonkosy.App - Nothing to return
+2021-09-19 11:05:51.447 [main] INFO  org.allisonkosy.App - Book{id=10, name='The Shinning', author='Stephen King'}
+2021-09-19 11:05:51.451 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:05:51.458 [main] INFO  org.allisonkosy.App - Book{id=10, name='The Shinning', author='Stephen King'}
+2021-09-19 11:05:51.460 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:05:51.462 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:05:51.464 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:05:51.465 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:05:51.474 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=10, name='The Shinning', author='Stephen King'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:05:51.474 [main] INFO  org.allisonkosy.App - The Shinning borrowed by Philip Lahm
+2021-09-19 11:06:03.631 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:06:03.636 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:06:03.637 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:06:03.637 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:06:03.639 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=10, name='The Shinning', author='Stephen King'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:06:03.640 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:06:03.644 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=10, name='The Shinning', author='Stephen King'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:06:03.645 [main] INFO  org.allisonkosy.App - return the previous borrowed book The Shinning
+2021-09-19 11:06:21.187 [main] INFO  org.allisonkosy.App - Philip Lahm returning The Shinning
+2021-09-19 11:06:26.019 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:06:26.024 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:06:26.026 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:06:26.026 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:06:26.027 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:06:26.029 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:26.029 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:06:26.035 [main] INFO  org.allisonkosy.App - Request{id=16, book=Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:06:26.036 [main] INFO  org.allisonkosy.App - The Lord of the Rings borrowed by Philip Lahm
+2021-09-19 11:06:56.489 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:06:56.568 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:06:56.781 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:06:56.969 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:06:57.724 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:06:57.729 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:06:57.730 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:06:57.730 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:06:57.734 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:06:57.988 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:06:58.000 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:06:58.035 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:06:58.043 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:06:58.190 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.194 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.202 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.211 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.216 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.224 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.226 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.227 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.229 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.231 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.232 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.237 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.239 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:06:58.242 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:07:07.044 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:07:12.157 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:07:12.161 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:07:12.164 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:07:12.170 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:07:12.172 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:07:12.175 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:07:12.176 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:07:12.185 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:07:12.185 [main] INFO  org.allisonkosy.App - The Lord of the Rings borrowed by Philip Lahm
+2021-09-19 11:07:27.006 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:07:32.972 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:07:32.978 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:07:32.979 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:07:32.980 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:07:32.981 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:07:32.983 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:07:32.983 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:07:32.985 [main] INFO  org.allisonkosy.App - Request{id=16, book=Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}, student=Student{id=4, age=44, name='Frank Sinatra'}}
+2021-09-19 11:07:32.986 [main] INFO  org.allisonkosy.App - The Lord of the Rings borrowed by Frank Sinatra
+2021-09-19 11:07:55.649 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:08:01.829 [main] INFO  org.allisonkosy.App - Book{id=8, name='The Silmarillion', author='J.R.R Tolkien'}
+2021-09-19 11:08:01.835 [main] INFO  org.allisonkosy.App - Student{id=2, age=22, name='Philip Lahm'}
+2021-09-19 11:08:01.837 [main] INFO  org.allisonkosy.App - Book{id=8, name='The Silmarillion', author='J.R.R Tolkien'}
+2021-09-19 11:08:01.837 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:08:01.840 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:08:01.840 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:08:01.844 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}, student=Student{id=2, age=22, name='Philip Lahm'}}
+2021-09-19 11:08:01.845 [main] INFO  org.allisonkosy.App - return the previous borrowed book The Lord of the Rings
+2021-09-19 11:08:20.544 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:10:05.727 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:10:05.781 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:10:05.991 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:10:06.171 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:10:06.890 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:10:06.895 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:10:06.895 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:10:06.896 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:10:06.899 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:10:07.181 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:10:07.194 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:10:07.252 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:10:07.260 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:10:07.436 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.438 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.441 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.449 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.451 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.453 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.455 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.457 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.462 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.464 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.466 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.467 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.469 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:07.470 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:33.025 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:10:33.093 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:10:33.325 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:10:33.517 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:10:34.236 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:10:34.241 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:10:34.241 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:10:34.242 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:10:34.244 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:10:34.496 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@91f565d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:10:34.509 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3878be7b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:10:34.548 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:10:34.556 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:10:34.693 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.696 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.698 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.700 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.703 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.712 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.718 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.723 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.726 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.734 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.738 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.741 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.743 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:34.745 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:42.803 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:10:48.251 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:10:48.252 [main] INFO  org.allisonkosy.App - Invalid selection
+2021-09-19 11:10:54.096 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:10:54.105 [main] INFO  org.allisonkosy.App - Student{id=4, age=44, name='Frank Sinatra'}
+2021-09-19 11:10:54.109 [main] INFO  org.allisonkosy.App - Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}
+2021-09-19 11:10:54.112 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:10:54.114 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:10:54.116 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:10:54.117 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:10:54.126 [main] INFO  org.allisonkosy.App - Request{id=15, book=Book{id=7, name='The Lord of the Rings', author='J.R.R Tolkien'}, student=Student{id=4, age=44, name='Frank Sinatra'}}
+2021-09-19 11:10:54.126 [main] INFO  org.allisonkosy.App - The Lord of the Rings borrowed by Frank Sinatra
+2021-09-19 11:44:35.079 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:44:35.157 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:44:35.461 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:44:35.741 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:44:36.641 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:44:36.647 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:44:36.647 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:44:36.648 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:44:36.650 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:44:36.927 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e5beb8a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:44:36.942 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74024f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:44:36.987 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:44:36.995 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:44:37.183 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.188 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.191 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.193 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.195 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.198 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.200 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.202 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.204 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.206 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.208 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.210 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.212 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:44:37.216 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:23.272 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: schoolLibrary]
+2021-09-19 11:45:23.343 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.5.7.Final
+2021-09-19 11:45:23.579 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-19 11:45:23.815 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-09-19 11:45:24.674 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-09-19 11:45:24.678 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [org.h2.Driver] at URL [jdbc:h2:mem:test]
+2021-09-19 11:45:24.679 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=kosy}
+2021-09-19 11:45:24.679 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+2021-09-19 11:45:24.681 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-09-19 11:45:24.888 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e5beb8a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:45:24.901 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74024f3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:45:24.953 [main] INFO  org.hibernate.tool.schema.internal.SchemaCreatorImpl - HHH000476: Executing import script 'file:/Users/kosy/IdeaProjects/schoolLibrary/target/classes/import.sql'
+2021-09-19 11:45:24.969 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-19 11:45:25.189 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.193 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.196 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.199 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.202 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.204 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.206 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.209 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.211 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.213 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.215 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.217 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.219 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:25.221 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:40.057 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:47.826 [main] INFO  org.allisonkosy.App - Book{id=8, name='The Silmarillion', author='J.R.R Tolkien'}
+2021-09-19 11:45:47.831 [main] INFO  org.allisonkosy.App - Student{id=15, age=88, name='Koni'}
+2021-09-19 11:45:47.834 [main] INFO  org.allisonkosy.App - Book{id=8, name='The Silmarillion', author='J.R.R Tolkien'}
+2021-09-19 11:45:47.837 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:45:47.838 [main] INFO  org.allisonkosy.App - Not found
+2021-09-19 11:45:47.840 [main] INFO  org.allisonkosy.App - DONE HERE
+2021-09-19 11:45:47.841 [main] INFO  org.allisonkosy.App - SELECT b FROM Request b WHERE b.student = :property
+2021-09-19 11:45:47.851 [main] INFO  org.allisonkosy.App - Request{id=16, book=Book{id=8, name='The Silmarillion', author='J.R.R Tolkien'}, student=Student{id=15, age=88, name='Koni'}}
+2021-09-19 11:45:47.851 [main] INFO  org.allisonkosy.App - The Silmarillion borrowed by Koni
+2021-09-19 11:45:53.655 [main] INFO  org.allisonkosy.App - Koni returning The Silmarillion
+2021-09-19 11:46:03.736 [main] INFO  org.allisonkosy.App - Student{id=6, age=22, name='Kelechi Edwards'}
+2021-09-19 11:46:09.998 [main] INFO  org.allisonkosy.App - Closing
+2021-09-19 11:46:10.000 [main] INFO  org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-09-19 11:46:10.001 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7c1503a3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-09-19 11:46:10.014 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:h2:mem:test]

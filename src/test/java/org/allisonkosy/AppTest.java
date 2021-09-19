@@ -18,7 +18,7 @@ public class AppTest
 {
     @Before
     public void beforeFunc() {
-Library.deleteAll();
+        Library.deleteAll();
     }
     /**
      * Rigorous Test :-)

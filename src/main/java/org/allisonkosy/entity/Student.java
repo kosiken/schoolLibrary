@@ -1,4 +1,6 @@
 package org.allisonkosy.entity;
+import org.allisonkosy.runner.Library;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -17,10 +19,10 @@ public class Student implements Serializable, Model {
     private Long id;
 
 
-
+    @Column(name = "name", nullable = false, unique = true)
     private String name;
 
-
+    @Column(name = "age", nullable = false)
     private Integer age;
 
     public void setAge(Integer age) {
@@ -71,4 +73,6 @@ public class Student implements Serializable, Model {
     public static String printIdentifier() {
         return "FROM Student s";
     }
+
+
 }
